@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next'
 
 const normalizeLocale = (locale: string) => {
   switch (locale) {
-    case 'zh-CN':
+    case 'zh-TW':
     case 'zh': {
       return 'zh'
     }
